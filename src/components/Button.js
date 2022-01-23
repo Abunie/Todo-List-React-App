@@ -5,8 +5,8 @@ const Button = ({color,text, onClick,bgColor}) => {
 }
 Button.defaultProps ={
     text: 'Task Tracker',
-    color: 'black',
-    bgColor:'red'
+    color: 'white',
+    bgColor:'green'
   }
 Button.propTypes = {
     text: PropTypes.string,
